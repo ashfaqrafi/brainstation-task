@@ -1,0 +1,32 @@
+/*
+
+  Header
+  +
+
+*/
+
+.header {
+  &-section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    &__heading {
+      font-size: 56px;
+      color: #004c45;
+      line-height: 66px;
+      font-weight: normal;
+      text-align: left;
+    }
+
+    &__sub {
+      &-heading {
+        font-size: 16px;
+        color: #2f3332;
+        line-height: 22px;
+        font-weight: normal;
+        text-align: left;
+        margin-top: 30px;
+      }
+    }
+  }
+}
